@@ -310,7 +310,7 @@ body {
 
 .works-list li .account-text {
     display: block;
-    font-size: 30px;
+    font-size:28px;
 }
 
 .works-list li .works-account-text {
@@ -372,17 +372,25 @@ body {
     color: white;
     display: block;
     width: 100%;
+    padding: 0 0 10px 0;
+    margin: 0;
 }
 
 .contact-works h3 {
     margin-top: 0;
     font-size: 50px;
+    margin: 0 0 40px 11%;
 }
 
 .contact-works p {
     font-size: 30px;
+    margin: 0 0 40px 11%;
 }
 
+.contact-works img {
+    margin: 0 0 0 7%;
+    vertical-align: middle
+}
 /*
  *[footer]のスタイルシート
  */
@@ -390,8 +398,11 @@ body {
 .block-footer p {
     clear: both;
     text-align: center;
+    background-color: gray;
+    color: white;
     font-size: 15px;
-    margin: 50px 0 20px;
+    padding: 50px 50px;
+    margin: 0%;
 }
 
 /*
@@ -487,6 +498,7 @@ body {
     }
     .image-pic img {
         width: 36%;
+        margin: 25px 0 0;
     }
     /*
 * [item-listタグ]のスタイルシート
